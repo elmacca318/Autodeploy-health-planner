@@ -1,0 +1,21 @@
+# โฟลเดอร์เก็บไลบรารีทั้งหมด (ห้ามอัปโหลดเด็ดขาด!)
+node_modules
+
+# ไฟล์ระบบปฏิบัติการ
+.DS_Store
+
+# โฟลเดอร์ที่โปรแกรมสร้างขึ้นตอน Build
+dist
+
+# ไฟล์ที่เก็บข้อมูลลับ เช่น API Key
+.env
+.env.local
+
+# ไฟล์ Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# รายการสำหรับแก้ปัญหา Permission Denied
+[Cc]loud[Ss]torage
+.tmp
